@@ -47,7 +47,7 @@
         compatible = "cirque,pinnacle";
         reg = <0x2A>;    
         status = "okay";
-        // dr-gpios = <&xiao_d 3 (GPIO_ACTIVE_HIGH)>;
+        dr-gpios = <&xiao_d 17 (GPIO_ACTIVE_HIGH)>;
 
         absolute-mode;
     };
